@@ -3,6 +3,10 @@
 *.fig
 *.xd
 
+node_modules/
+output.css
+tailwind.config.js
+postcss.config.js
 # Dependencies
 /node_modules
 /.pnp
@@ -38,3 +42,9 @@ npm-debug.log*
 *.pem
 .DS_Store
 Thumbs.db
+package.json
+package-lock.json
+input.css
+.gitignore
+.gitignore
+.gitignore
