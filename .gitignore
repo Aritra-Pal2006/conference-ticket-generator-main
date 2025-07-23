@@ -38,3 +38,9 @@ npm-debug.log*
 *.pem
 .DS_Store
 Thumbs.db
+input.css
+output.css
+package.json
+package-lock.json
+tailwind.config.js
+.gitignore
