@@ -18,7 +18,7 @@
 <div class="flex flex-col justify-center items-center  text-white pb-12 ">
 
   <h2 class="text-3xl  font-bold leading-tight text-center">
-    Congrats, <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-white">Jonatan Kristof</span>!
+    Congrats, <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-white" id="ticket-name1"></span>!
   </h2>
   <h2 class="text-3xl  font-bold leading-tight text-center mt-1">
     Your ticket is ready.
@@ -29,7 +29,7 @@
 
 <div class="flex flex-col justify-center items-center  text-white/50 pb-12">
   <h3>We've emailed your ticket to </h3>
-  <h3><span class="text-orange-600">email@email.com</span> and will send updates in</h3>
+  <h3><span class="text-orange-600" id="ticket-email"></span> and will send updates in</h3>
   <h3>the run up to the event</h3>
 </div>
 
@@ -41,14 +41,14 @@
     <img src="assets/images/pattern-ticket.svg" class="w-full relative z-0" alt="ticket">
 
      <div class="absolute top-24 right-10 text-white/60 text-sm tracking-wider [writing-mode:vertical-rl]">
-      <p>Number </p>
+      <p id="ticket-number"></p>
      
   </div>
 
     
     <div class="absolute top-6 left-6 z-10 text-white space-y-2">
       <div class="flex items-center space-x-2">
-        <img src="assets/images/logo-full.svg" class="" alt="logo">
+        <img src="assets/images/logo-full.svg" class="" alt="logo"> 
         
       </div>
 
@@ -59,15 +59,15 @@
       </div>
 
       <div class="flex space-x-3 pt-24">
-        <img src="assets/images/image-avatar.jpg" class="h-20"  alt="image-avatar">
+        <img  class="h-20" id="profile-photo"  alt="image-avatar">
 
         <div class="flex flex-col space-y-2">
-          <span>NAME</span>
+          <span id="ticket-name">NAME</span>
 
           <div class="flex justify-center items-center space-x-2">
 
             <img src="assets/images/icon-github.svg" alt="icon-github">
-            <p>username</p>
+            <p id="ticket-github"></p>
 
           </div>
         </div>
@@ -76,8 +76,8 @@
     </div>
 
   </div>
-
-  <img class="absolute left-0 h-96" src="assets/images/pattern-squiggly-line-bottom-desktop.svg" alt="bottom-lines">
+ 
+  <img class="absolute left-0 h-96" src="assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg"  alt="bottom-lines">
 </div>
 
 
@@ -89,4 +89,5 @@
   
 
 </body>
+<script src="generated.js"></script>
 </html>
